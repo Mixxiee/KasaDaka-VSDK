@@ -193,14 +193,6 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 27,
-  "fields": {
-    "name": "Check",
-    "description": "check whether test is working"
-  }
-},
-{
-  "model": "service_development.voicelabel",
   "pk": 28,
   "fields": {
     "name": "Post1",
@@ -212,14 +204,6 @@
   "pk": 29,
   "fields": {
     "name": "Wrong post",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 30,
-  "fields": {
-    "name": "which animal",
     "description": null
   }
 },
@@ -245,14 +229,6 @@
   "fields": {
     "name": "Cow correct?",
     "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 34,
-  "fields": {
-    "name": "Cow check 1",
-    "description": "Does it have a painful and swollen tongue?"
   }
 },
 {
@@ -341,6 +317,70 @@
   "fields": {
     "name": "Fowl Pox",
     "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 46,
+  "fields": {
+    "name": "Chicken check 1",
+    "description": "Is there a decrease in eating and drinking?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 47,
+  "fields": {
+    "name": "Chicken check 2",
+    "description": "Does it have discharge from the nostrils and eyes?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 48,
+  "fields": {
+    "name": "Chicken check 3",
+    "description": "Does it gasp, cough and make raspy breath sounds?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 49,
+  "fields": {
+    "name": "Chicken check 4",
+    "description": "Is there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 50,
+  "fields": {
+    "name": "Chicken check 5",
+    "description": "Does it have white spots on its skin?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 51,
+  "fields": {
+    "name": "Chicken check 6",
+    "description": "Does it have scabby sores on its combs?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 52,
+  "fields": {
+    "name": "Chicken check 7",
+    "description": "Does it have tongue blisters?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 53,
+  "fields": {
+    "name": "Cow check 1",
+    "description": "Does it have a painful and swollen tongue?"
   }
 },
 {
@@ -1044,15 +1084,6 @@
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 76,
-  "fields": {
-    "parent": 27,
-    "language": 2,
-    "audio": "TestWork_I72ceur.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
   "pk": 77,
   "fields": {
     "parent": 28,
@@ -1067,15 +1098,6 @@
     "parent": 29,
     "language": 2,
     "audio": "wrongpost.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 79,
-  "fields": {
-    "parent": 30,
-    "language": 2,
-    "audio": "type.wav"
   }
 },
 {
@@ -1103,15 +1125,6 @@
     "parent": 33,
     "language": 2,
     "audio": "correctcow.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 83,
-  "fields": {
-    "parent": 34,
-    "language": 2,
-    "audio": "swollentongue.wav"
   }
 },
 {
@@ -1211,6 +1224,78 @@
     "parent": 45,
     "language": 2,
     "audio": "fowlpox.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 95,
+  "fields": {
+    "parent": 46,
+    "language": 2,
+    "audio": "chickeneatdrink.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 96,
+  "fields": {
+    "parent": 47,
+    "language": 2,
+    "audio": "eyedischarge_6EKBzx6.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 97,
+  "fields": {
+    "parent": 48,
+    "language": 2,
+    "audio": "cough.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 98,
+  "fields": {
+    "parent": 49,
+    "language": 2,
+    "audio": "softshelled.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 99,
+  "fields": {
+    "parent": 50,
+    "language": 2,
+    "audio": "whitespots.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 100,
+  "fields": {
+    "parent": 51,
+    "language": 2,
+    "audio": "scabbysores.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 101,
+  "fields": {
+    "parent": 52,
+    "language": 2,
+    "audio": "chickentongueblisters.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 102,
+  "fields": {
+    "parent": 53,
+    "language": 2,
+    "audio": "swollentongue_FjEbAKm.wav"
   }
 },
 {
@@ -1375,7 +1460,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:45:34.720Z",
-    "modification_date": "2018-05-01T17:45:34.720Z",
+    "modification_date": "2018-05-01T19:44:16.244Z",
     "name": "Chicken correct?",
     "description": "",
     "voice_label": 32
@@ -1387,7 +1472,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:45:34.726Z",
-    "modification_date": "2018-05-01T17:45:34.726Z",
+    "modification_date": "2018-05-01T19:44:16.249Z",
     "name": "Chicken correct",
     "description": "",
     "voice_label": 21
@@ -1411,10 +1496,10 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:55:14.669Z",
-    "modification_date": "2018-05-01T18:00:40.057Z",
+    "modification_date": "2018-05-01T19:46:34.670Z",
     "name": "Cow check 1",
     "description": "",
-    "voice_label": 34
+    "voice_label": 53
   }
 },
 {
@@ -1555,7 +1640,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:20:39.901Z",
-    "modification_date": "2018-05-01T18:23:37.992Z",
+    "modification_date": "2018-05-01T19:46:19.817Z",
     "name": "Cow check 5",
     "description": "Does it have plenty watery eye discharge?",
     "voice_label": 38
@@ -1742,6 +1827,258 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 55,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:35:25.197Z",
+    "modification_date": "2018-05-01T19:40:12.772Z",
+    "name": "Chicken check 1",
+    "description": "Is there a decrease in eating and drinking?",
+    "voice_label": 46
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 56,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:35:25.201Z",
+    "modification_date": "2018-05-01T19:40:12.778Z",
+    "name": "Decrease in eating & drinking",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 57,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:35:25.204Z",
+    "modification_date": "2018-05-01T19:40:12.781Z",
+    "name": "No decrease in eating & drinking",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 58,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:36:45.118Z",
+    "modification_date": "2018-05-01T19:39:58.728Z",
+    "name": "Chicken check 2",
+    "description": "Does it have discharge from the nostrils and eyes?",
+    "voice_label": 47
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 59,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:36:45.123Z",
+    "modification_date": "2018-05-01T19:39:58.733Z",
+    "name": "Discharge",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 60,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:36:45.125Z",
+    "modification_date": "2018-05-01T19:39:58.735Z",
+    "name": "No Discharge",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 61,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:38:00.742Z",
+    "modification_date": "2018-05-01T19:39:41.168Z",
+    "name": "Chicken check 3",
+    "description": "Does it gasp, cough and make raspy breath sounds?",
+    "voice_label": 48
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 62,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:38:00.747Z",
+    "modification_date": "2018-05-01T19:39:41.174Z",
+    "name": "Coughing",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 63,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:38:00.750Z",
+    "modification_date": "2018-05-01T19:39:41.176Z",
+    "name": "No coughing",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 64,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:39:21.975Z",
+    "modification_date": "2018-05-01T19:43:38.426Z",
+    "name": "Chicken check 4",
+    "description": "s there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 65,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:39:21.984Z",
+    "modification_date": "2018-05-01T19:43:38.431Z",
+    "name": "Soft-shelled",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 66,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:39:21.987Z",
+    "modification_date": "2018-05-01T19:43:38.434Z",
+    "name": "Not soft-shelled",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 67,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:41:15.455Z",
+    "modification_date": "2018-05-01T19:43:52.833Z",
+    "name": "Chicken check 5",
+    "description": "Does it have white spots on its skin?",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 68,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:41:15.460Z",
+    "modification_date": "2018-05-01T19:43:52.838Z",
+    "name": "White spots",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 69,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:41:15.462Z",
+    "modification_date": "2018-05-01T19:43:52.840Z",
+    "name": "No white spots",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 70,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:42:11.841Z",
+    "modification_date": "2018-05-01T19:44:03.377Z",
+    "name": "Chicken check 6",
+    "description": "Does it have scabby sores on its combs?",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 71,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:42:11.846Z",
+    "modification_date": "2018-05-01T19:44:03.381Z",
+    "name": "Scabby sores",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 72,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:42:11.848Z",
+    "modification_date": "2018-05-01T19:44:03.383Z",
+    "name": "No scabby sores",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 73,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:43:19.845Z",
+    "modification_date": "2018-05-01T19:43:19.845Z",
+    "name": "Chicken check 7",
+    "description": "Does it have tongue blisters?",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 74,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:43:19.850Z",
+    "modification_date": "2018-05-01T19:43:19.851Z",
+    "name": "Tongue Blisters",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 75,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-01T19:43:19.853Z",
+    "modification_date": "2018-05-01T19:43:19.853Z",
+    "name": "No tongue Blisters",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 2,
   "fields": {}
@@ -1842,6 +2179,41 @@
   "fields": {}
 },
 {
+  "model": "service_development.voiceserviceelement",
+  "pk": 55,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 58,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 61,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 64,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 67,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 70,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 73,
+  "fields": {}
+},
+{
   "model": "service_development.voiceservice",
   "pk": 1,
   "fields": {
@@ -1851,24 +2223,6 @@
     "modification_date": "2018-05-01T17:04:57.043Z",
     "active": true,
     "_start_element": 2,
-    "registration": "preferred",
-    "registration_language": true,
-    "registration_name": false,
-    "supported_languages": [
-      2
-    ]
-  }
-},
-{
-  "model": "service_development.voiceservice",
-  "pk": 2,
-  "fields": {
-    "name": "Test",
-    "description": "A test to see how this works",
-    "creation_date": "2018-04-28T14:54:00.204Z",
-    "modification_date": "2018-04-28T16:01:05.741Z",
-    "active": true,
-    "_start_element": null,
     "registration": "preferred",
     "registration_language": true,
     "registration_name": false,
@@ -1951,6 +2305,41 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 55,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 58,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 61,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 64,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 67,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 70,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 73,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 3,
   "fields": {
@@ -2003,7 +2392,7 @@
   "pk": 25,
   "fields": {
     "parent": 24,
-    "_redirect": null
+    "_redirect": 55
   }
 },
 {
@@ -2140,6 +2529,118 @@
   "fields": {
     "parent": 48,
     "_redirect": 52
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 56,
+  "fields": {
+    "parent": 55,
+    "_redirect": 58
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 57,
+  "fields": {
+    "parent": 55,
+    "_redirect": 58
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 59,
+  "fields": {
+    "parent": 58,
+    "_redirect": 61
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 60,
+  "fields": {
+    "parent": 58,
+    "_redirect": 61
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 62,
+  "fields": {
+    "parent": 61,
+    "_redirect": 64
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 63,
+  "fields": {
+    "parent": 61,
+    "_redirect": 64
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 65,
+  "fields": {
+    "parent": 64,
+    "_redirect": 67
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 66,
+  "fields": {
+    "parent": 64,
+    "_redirect": 67
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 68,
+  "fields": {
+    "parent": 67,
+    "_redirect": 70
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 69,
+  "fields": {
+    "parent": 67,
+    "_redirect": 70
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 71,
+  "fields": {
+    "parent": 70,
+    "_redirect": 73
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 72,
+  "fields": {
+    "parent": 70,
+    "_redirect": 73
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 74,
+  "fields": {
+    "parent": 73,
+    "_redirect": 53
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 75,
+  "fields": {
+    "parent": 73,
+    "_redirect": 54
   }
 },
 {
