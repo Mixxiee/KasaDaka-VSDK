@@ -2101,10 +2101,22 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-02T07:29:56.083Z",
-    "modification_date": "2018-05-02T07:29:56.083Z",
+    "modification_date": "2018-05-02T07:50:33.286Z",
     "name": "Welcome message",
     "description": "",
     "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 77,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-02T07:49:57.727Z",
+    "modification_date": "2018-05-02T07:49:57.727Z",
+    "name": "test",
+    "description": "",
+    "voice_label": 3
   }
 },
 {
@@ -2245,6 +2257,11 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 76,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 77,
   "fields": {}
 },
 {
@@ -2744,6 +2761,14 @@
 {
   "model": "service_development.messagepresentation",
   "pk": 76,
+  "fields": {
+    "final_element": false,
+    "_redirect": 77
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 77,
   "fields": {
     "final_element": false,
     "_redirect": 2
