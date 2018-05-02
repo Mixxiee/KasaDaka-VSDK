@@ -1801,7 +1801,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:43:52.096Z",
-    "modification_date": "2018-05-01T18:43:52.096Z",
+    "modification_date": "2018-05-02T08:33:20.036Z",
     "name": "Disease: Wooden Tongue",
     "description": "The cow has wooden tongue",
     "voice_label": 42
@@ -1813,7 +1813,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:44:57.030Z",
-    "modification_date": "2018-05-01T18:46:28.087Z",
+    "modification_date": "2018-05-02T08:33:49.902Z",
     "name": "Disease: Pink eye",
     "description": "The cow has pink eye",
     "voice_label": 43
@@ -1825,7 +1825,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:48:00.537Z",
-    "modification_date": "2018-05-01T18:48:00.537Z",
+    "modification_date": "2018-05-02T08:31:24.142Z",
     "name": "Disease: Infectious Bronchitis",
     "description": "The chicken has infectious bronchitis",
     "voice_label": 44
@@ -1837,8 +1837,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:48:51.273Z",
-    "modification_date": "2018-05-01T18:48:51.273Z",
-    "name": "Fowl Pox",
+    "modification_date": "2018-05-02T08:33:33.552Z",
+    "name": "Disease: Fowl Pox",
     "description": "The chicken has fowl pox",
     "voice_label": 45
   }
@@ -2101,22 +2101,10 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-02T07:29:56.083Z",
-    "modification_date": "2018-05-02T07:50:33.286Z",
+    "modification_date": "2018-05-02T08:29:50.023Z",
     "name": "Welcome message",
     "description": "",
     "voice_label": 57
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 77,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-02T07:49:57.727Z",
-    "modification_date": "2018-05-02T07:49:57.727Z",
-    "name": "test",
-    "description": "",
-    "voice_label": 3
   }
 },
 {
@@ -2257,11 +2245,6 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 76,
-  "fields": {}
-},
-{
-  "model": "service_development.voiceserviceelement",
-  "pk": 77,
   "fields": {}
 },
 {
@@ -2730,45 +2713,37 @@
   "model": "service_development.messagepresentation",
   "pk": 51,
   "fields": {
-    "final_element": true,
-    "_redirect": null
+    "final_element": false,
+    "_redirect": 6
   }
 },
 {
   "model": "service_development.messagepresentation",
   "pk": 52,
   "fields": {
-    "final_element": true,
-    "_redirect": null
+    "final_element": false,
+    "_redirect": 6
   }
 },
 {
   "model": "service_development.messagepresentation",
   "pk": 53,
   "fields": {
-    "final_element": true,
-    "_redirect": null
+    "final_element": false,
+    "_redirect": 6
   }
 },
 {
   "model": "service_development.messagepresentation",
   "pk": 54,
   "fields": {
-    "final_element": true,
-    "_redirect": null
+    "final_element": false,
+    "_redirect": 6
   }
 },
 {
   "model": "service_development.messagepresentation",
   "pk": 76,
-  "fields": {
-    "final_element": false,
-    "_redirect": 77
-  }
-},
-{
-  "model": "service_development.messagepresentation",
-  "pk": 77,
   "fields": {
     "final_element": false,
     "_redirect": 2
