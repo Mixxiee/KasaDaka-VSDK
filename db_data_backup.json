@@ -193,14 +193,6 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 28,
-  "fields": {
-    "name": "Post1",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
   "pk": 29,
   "fields": {
     "name": "Wrong post",
@@ -385,9 +377,9 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 57,
+  "pk": 58,
   "fields": {
-    "name": "Hello Test",
+    "name": "Welcome",
     "description": null
   }
 },
@@ -1092,15 +1084,6 @@
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 77,
-  "fields": {
-    "parent": 28,
-    "language": 2,
-    "audio": "post1.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
   "pk": 78,
   "fields": {
     "parent": 29,
@@ -1308,47 +1291,11 @@
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 106,
+  "pk": 107,
   "fields": {
-    "parent": 57,
+    "parent": 58,
     "language": 2,
-    "audio": "HelloTest.wav"
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 2,
-  "fields": {
-    "service": 1,
-    "creation_date": "2017-04-23T19:30:23.792Z",
-    "modification_date": "2018-05-01T17:10:52.748Z",
-    "name": "You are at post 1. Is this correct?",
-    "description": "",
-    "voice_label": 28
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 3,
-  "fields": {
-    "service": 1,
-    "creation_date": "2017-04-23T19:32:07.853Z",
-    "modification_date": "2018-05-01T16:59:44.485Z",
-    "name": "Yes",
-    "description": "At post 1",
-    "voice_label": 21
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 4,
-  "fields": {
-    "service": 1,
-    "creation_date": "2017-04-23T19:32:07.854Z",
-    "modification_date": "2018-05-01T17:10:52.752Z",
-    "name": "No",
-    "description": "At incorrect post",
-    "voice_label": 22
+    "audio": "Welcome.wav"
   }
 },
 {
@@ -1405,7 +1352,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.632Z",
-    "modification_date": "2018-05-01T17:48:57.139Z",
+    "modification_date": "2018-05-02T09:01:29.264Z",
     "name": "What type of animal?",
     "description": "",
     "voice_label": 31
@@ -1417,10 +1364,10 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.637Z",
-    "modification_date": "2018-05-01T17:44:03.894Z",
+    "modification_date": "2018-05-02T09:01:29.268Z",
     "name": "Cow",
     "description": "",
-    "voice_label": 21
+    "voice_label": 11
   }
 },
 {
@@ -1429,10 +1376,10 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.639Z",
-    "modification_date": "2018-05-01T17:45:57.066Z",
+    "modification_date": "2018-05-02T09:01:29.269Z",
     "name": "Chicken",
     "description": "",
-    "voice_label": 22
+    "voice_label": 12
   }
 },
 {
@@ -2101,16 +2048,11 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-02T07:29:56.083Z",
-    "modification_date": "2018-05-02T08:29:50.023Z",
+    "modification_date": "2018-05-02T08:59:49.220Z",
     "name": "Welcome message",
     "description": "",
-    "voice_label": 57
+    "voice_label": 58
   }
-},
-{
-  "model": "service_development.voiceserviceelement",
-  "pk": 2,
-  "fields": {}
 },
 {
   "model": "service_development.voiceserviceelement",
@@ -2280,11 +2222,6 @@
 },
 {
   "model": "service_development.choice",
-  "pk": 2,
-  "fields": {}
-},
-{
-  "model": "service_development.choice",
   "pk": 18,
   "fields": {}
 },
@@ -2372,22 +2309,6 @@
   "model": "service_development.choice",
   "pk": 73,
   "fields": {}
-},
-{
-  "model": "service_development.choiceoption",
-  "pk": 3,
-  "fields": {
-    "parent": 2,
-    "_redirect": 5
-  }
-},
-{
-  "model": "service_development.choiceoption",
-  "pk": 4,
-  "fields": {
-    "parent": 2,
-    "_redirect": 17
-  }
 },
 {
   "model": "service_development.choiceoption",
@@ -2746,7 +2667,7 @@
   "pk": 76,
   "fields": {
     "final_element": false,
-    "_redirect": 2
+    "_redirect": 18
   }
 }
 ]
