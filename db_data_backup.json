@@ -424,6 +424,38 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 64,
+  "fields": {
+    "name": "Chicken start",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 65,
+  "fields": {
+    "name": "Start checklist cow",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 66,
+  "fields": {
+    "name": "goat",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 67,
+  "fields": {
+    "name": "Start checklist goat",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -1137,7 +1169,7 @@
   "fields": {
     "parent": 31,
     "language": 2,
-    "audio": "type_ZJ2esef.wav"
+    "audio": "type_en.wav"
   }
 },
 {
@@ -1335,7 +1367,7 @@
   "fields": {
     "parent": 58,
     "language": 2,
-    "audio": "test_Ho5E1Ua.wav"
+    "audio": "welcome_en.wav"
   }
 },
 {
@@ -1344,7 +1376,7 @@
   "fields": {
     "parent": 59,
     "language": 2,
-    "audio": "cow_oNBJzRD.wav"
+    "audio": "cow_en.wav"
   }
 },
 {
@@ -1353,7 +1385,7 @@
   "fields": {
     "parent": 60,
     "language": 2,
-    "audio": "chicken_11s1KFT.wav"
+    "audio": "chicken_en.wav"
   }
 },
 {
@@ -1381,6 +1413,114 @@
     "parent": 63,
     "language": 2,
     "audio": "mostlikely_Tv0mJiE.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 113,
+  "fields": {
+    "parent": 58,
+    "language": 3,
+    "audio": "welcome_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 114,
+  "fields": {
+    "parent": 31,
+    "language": 3,
+    "audio": "type_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 115,
+  "fields": {
+    "parent": 59,
+    "language": 3,
+    "audio": "cow_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 116,
+  "fields": {
+    "parent": 60,
+    "language": 3,
+    "audio": "chicken_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 117,
+  "fields": {
+    "parent": 64,
+    "language": 2,
+    "audio": "chickenstart_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 118,
+  "fields": {
+    "parent": 64,
+    "language": 3,
+    "audio": "chickenstart_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 119,
+  "fields": {
+    "parent": 65,
+    "language": 2,
+    "audio": "cowstart_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 120,
+  "fields": {
+    "parent": 65,
+    "language": 3,
+    "audio": "cowstart_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 121,
+  "fields": {
+    "parent": 66,
+    "language": 2,
+    "audio": "goat_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 122,
+  "fields": {
+    "parent": 66,
+    "language": 3,
+    "audio": "goat_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 123,
+  "fields": {
+    "parent": 67,
+    "language": 2,
+    "audio": "goatstart_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 124,
+  "fields": {
+    "parent": 67,
+    "language": 3,
+    "audio": "goatstart_fr.wav"
   }
 },
 {
@@ -1437,7 +1577,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.632Z",
-    "modification_date": "2018-05-02T11:36:43.917Z",
+    "modification_date": "2018-05-17T12:29:45.945Z",
     "name": "What type of animal?",
     "description": "",
     "voice_label": 31
@@ -1449,7 +1589,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.637Z",
-    "modification_date": "2018-05-02T11:36:43.923Z",
+    "modification_date": "2018-05-17T12:20:41.622Z",
     "name": "Cow",
     "description": "",
     "voice_label": 59
@@ -1461,82 +1601,10 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.639Z",
-    "modification_date": "2018-05-02T11:36:43.925Z",
+    "modification_date": "2018-05-17T12:20:41.624Z",
     "name": "Chicken",
     "description": "",
     "voice_label": 60
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 21,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:43:25.267Z",
-    "modification_date": "2018-05-02T13:02:58.762Z",
-    "name": "Cow correct?",
-    "description": "",
-    "voice_label": 33
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 22,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:43:25.271Z",
-    "modification_date": "2018-05-01T17:55:37.043Z",
-    "name": "Cow correct",
-    "description": "",
-    "voice_label": 21
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 23,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:43:25.273Z",
-    "modification_date": "2018-05-01T17:43:25.273Z",
-    "name": "Cow incorrect",
-    "description": "",
-    "voice_label": 22
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 24,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:45:34.720Z",
-    "modification_date": "2018-05-01T19:44:16.244Z",
-    "name": "Chicken correct?",
-    "description": "",
-    "voice_label": 32
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 25,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:45:34.726Z",
-    "modification_date": "2018-05-01T19:44:16.249Z",
-    "name": "Chicken correct",
-    "description": "",
-    "voice_label": 21
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
-  "pk": 26,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:45:34.728Z",
-    "modification_date": "2018-05-01T17:45:34.728Z",
-    "name": "Chicken incorrect",
-    "description": "",
-    "voice_label": 22
   }
 },
 {
@@ -2164,6 +2232,66 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 80,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-17T12:17:23.337Z",
+    "modification_date": "2018-05-17T12:17:43.073Z",
+    "name": "Start Checklist Chicken",
+    "description": "announce start of chicken checklist",
+    "voice_label": 64
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 81,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-17T12:18:59.557Z",
+    "modification_date": "2018-05-17T12:18:59.557Z",
+    "name": "Start checklist cow",
+    "description": "announce start of cow checklist",
+    "voice_label": 65
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 82,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-17T12:20:41.626Z",
+    "modification_date": "2018-05-17T12:29:45.949Z",
+    "name": "Goat",
+    "description": "",
+    "voice_label": 66
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 83,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-17T12:28:53.944Z",
+    "modification_date": "2018-05-17T12:28:53.944Z",
+    "name": "Start checklist goat",
+    "description": "",
+    "voice_label": 67
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 84,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-17T12:29:24.661Z",
+    "modification_date": "2018-05-17T12:29:24.661Z",
+    "name": "Goat check 1",
+    "description": "",
+    "voice_label": null
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 5,
   "fields": {}
@@ -2186,16 +2314,6 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 18,
-  "fields": {}
-},
-{
-  "model": "service_development.voiceserviceelement",
-  "pk": 21,
-  "fields": {}
-},
-{
-  "model": "service_development.voiceserviceelement",
-  "pk": 24,
   "fields": {}
 },
 {
@@ -2309,20 +2427,41 @@
   "fields": {}
 },
 {
+  "model": "service_development.voiceserviceelement",
+  "pk": 80,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 81,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 83,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 84,
+  "fields": {}
+},
+{
   "model": "service_development.voiceservice",
   "pk": 1,
   "fields": {
     "name": "Animal Diagnosis",
     "description": "An animal diagnosis that checks whether your cattle has a disease",
     "creation_date": "2017-04-23T19:23:52.392Z",
-    "modification_date": "2018-05-02T07:30:24.147Z",
+    "modification_date": "2018-05-17T12:30:24.707Z",
     "active": true,
     "_start_element": 76,
     "registration": "preferred",
     "registration_language": true,
     "registration_name": false,
     "supported_languages": [
-      2
+      2,
+      3
     ]
   }
 },
@@ -2342,16 +2481,6 @@
 {
   "model": "service_development.choice",
   "pk": 18,
-  "fields": {}
-},
-{
-  "model": "service_development.choice",
-  "pk": 21,
-  "fields": {}
-},
-{
-  "model": "service_development.choice",
-  "pk": 24,
   "fields": {}
 },
 {
@@ -2430,11 +2559,16 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 84,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 19,
   "fields": {
     "parent": 18,
-    "_redirect": 21
+    "_redirect": 81
   }
 },
 {
@@ -2442,39 +2576,7 @@
   "pk": 20,
   "fields": {
     "parent": 18,
-    "_redirect": 24
-  }
-},
-{
-  "model": "service_development.choiceoption",
-  "pk": 22,
-  "fields": {
-    "parent": 21,
-    "_redirect": 27
-  }
-},
-{
-  "model": "service_development.choiceoption",
-  "pk": 23,
-  "fields": {
-    "parent": 21,
-    "_redirect": 18
-  }
-},
-{
-  "model": "service_development.choiceoption",
-  "pk": 25,
-  "fields": {
-    "parent": 24,
-    "_redirect": 55
-  }
-},
-{
-  "model": "service_development.choiceoption",
-  "pk": 26,
-  "fields": {
-    "parent": 24,
-    "_redirect": 18
+    "_redirect": 80
   }
 },
 {
@@ -2718,6 +2820,14 @@
   }
 },
 {
+  "model": "service_development.choiceoption",
+  "pk": 82,
+  "fields": {
+    "parent": 18,
+    "_redirect": 84
+  }
+},
+{
   "model": "service_development.messagepresentation",
   "pk": 5,
   "fields": {
@@ -2803,6 +2913,30 @@
   "fields": {
     "final_element": false,
     "_redirect": 6
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 80,
+  "fields": {
+    "final_element": false,
+    "_redirect": 55
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 81,
+  "fields": {
+    "final_element": false,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 83,
+  "fields": {
+    "final_element": false,
+    "_redirect": null
   }
 }
 ]
