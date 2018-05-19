@@ -28,7 +28,7 @@
   "pk": 4,
   "fields": {
     "name": "English language",
-    "description": ""
+    "description": null
   }
 },
 {
@@ -228,7 +228,7 @@
   "pk": 35,
   "fields": {
     "name": "Cow check 2",
-    "description": "Is it able to eat or drink?"
+    "description": "Does the cow have pale or yellow colored gums?"
   }
 },
 {
@@ -236,7 +236,7 @@
   "pk": 36,
   "fields": {
     "name": "Cow check 3",
-    "description": "Tongue Blisters?"
+    "description": "Is it experiencing weight loss?"
   }
 },
 {
@@ -244,7 +244,7 @@
   "pk": 37,
   "fields": {
     "name": "Cow check 4",
-    "description": "Is it drooling a lot?"
+    "description": "Does the cow have ulcers on its skin?"
   }
 },
 {
@@ -252,7 +252,7 @@
   "pk": 38,
   "fields": {
     "name": "Cow check 5",
-    "description": "Does it have plenty watery eye discharge?"
+    "description": "Does it have swollen legs?"
   }
 },
 {
@@ -260,7 +260,7 @@
   "pk": 39,
   "fields": {
     "name": "Cow check 6",
-    "description": "Does it have an aversion to sunlight?"
+    "description": "Does it have a fever?"
   }
 },
 {
@@ -268,7 +268,7 @@
   "pk": 40,
   "fields": {
     "name": "Cow check 7",
-    "description": "Does it have signs of irritation, for example, excessive blinking?"
+    "description": "Does it have excessive salivation?"
   }
 },
 {
@@ -276,14 +276,14 @@
   "pk": 41,
   "fields": {
     "name": "Cow check 8",
-    "description": "Does it have reddening and swelling of the eyelids and the third eyelid?"
+    "description": "Does it have constipation?"
   }
 },
 {
   "model": "service_development.voicelabel",
   "pk": 42,
   "fields": {
-    "name": "Wooden Tongue",
+    "name": "Trypanosomosis",
     "description": null
   }
 },
@@ -291,7 +291,7 @@
   "model": "service_development.voicelabel",
   "pk": 43,
   "fields": {
-    "name": "Pink eye",
+    "name": "Lumpy skin disease",
     "description": null
   }
 },
@@ -316,7 +316,7 @@
   "pk": 46,
   "fields": {
     "name": "Chicken check 1",
-    "description": "Is there a decrease in eating and drinking?"
+    "description": "Does it have discharge from the nostrils and eyes?"
   }
 },
 {
@@ -324,7 +324,7 @@
   "pk": 47,
   "fields": {
     "name": "Chicken check 2",
-    "description": "Does it have discharge from the nostrils and eyes?"
+    "description": "Is there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?"
   }
 },
 {
@@ -340,7 +340,7 @@
   "pk": 49,
   "fields": {
     "name": "Chicken check 4",
-    "description": "Is there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?"
+    "description": "Is there a decrease in eating and drinking?"
   }
 },
 {
@@ -348,7 +348,7 @@
   "pk": 50,
   "fields": {
     "name": "Chicken check 5",
-    "description": "Does it have white spots on its skin?"
+    "description": "Is there a lost in appetite?"
   }
 },
 {
@@ -356,7 +356,7 @@
   "pk": 51,
   "fields": {
     "name": "Chicken check 6",
-    "description": "Does it have scabby sores on its combs?"
+    "description": "Is there a decrease in egg production?"
   }
 },
 {
@@ -364,7 +364,7 @@
   "pk": 52,
   "fields": {
     "name": "Chicken check 7",
-    "description": "Does it have tongue blisters?"
+    "description": "Is it gasping, coughing and sneezing?"
   }
 },
 {
@@ -372,7 +372,7 @@
   "pk": 53,
   "fields": {
     "name": "Cow check 1",
-    "description": "Does it have a painful and swollen tongue?"
+    "description": "Does the cow have an irregular fever?"
   }
 },
 {
@@ -453,6 +453,70 @@
   "fields": {
     "name": "Start checklist goat",
     "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 68,
+  "fields": {
+    "name": "cow check 9",
+    "description": "Does the cow have a lost of appetite?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 69,
+  "fields": {
+    "name": "Cow check 11",
+    "description": "Does it have a fever?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 70,
+  "fields": {
+    "name": "Gall-Sickness",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 71,
+  "fields": {
+    "name": "Cow check 10",
+    "description": "Does the cow have pale or yellow colored gums?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 72,
+  "fields": {
+    "name": "Newcastle disease",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 73,
+  "fields": {
+    "name": "Chicken check 8",
+    "description": "Does it have white spots on its skin?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 74,
+  "fields": {
+    "name": "Chicken check 9",
+    "description": "Does it have scabby sores on its combs?"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 75,
+  "fields": {
+    "name": "Chicken check 10",
+    "description": "Does it have tongue blisters?"
   }
 },
 {
@@ -1034,7 +1098,7 @@
   "fields": {
     "parent": 4,
     "language": 3,
-    "audio": "english_fr.wav"
+    "audio": "english_fr_XCufN73.wav"
   }
 },
 {
@@ -1196,7 +1260,7 @@
   "fields": {
     "parent": 35,
     "language": 2,
-    "audio": "chickeneat_drink_J7G7P5S.wav"
+    "audio": "check2_cowpalegums_en.wav"
   }
 },
 {
@@ -1205,7 +1269,7 @@
   "fields": {
     "parent": 36,
     "language": 2,
-    "audio": "tongueblister_1j8Ocm3.wav"
+    "audio": "check3_cowweightloss_en.wav"
   }
 },
 {
@@ -1214,7 +1278,7 @@
   "fields": {
     "parent": 37,
     "language": 2,
-    "audio": "drooling_kho8u2Z.wav"
+    "audio": "check4_cowulcers_en.wav"
   }
 },
 {
@@ -1223,7 +1287,7 @@
   "fields": {
     "parent": 38,
     "language": 2,
-    "audio": "eyedischarge_Avauutv.wav"
+    "audio": "check5_cowswollenlegs_en.wav"
   }
 },
 {
@@ -1232,7 +1296,7 @@
   "fields": {
     "parent": 39,
     "language": 2,
-    "audio": "sunlight_C8osRtH.wav"
+    "audio": "check6_cowfever_en.wav"
   }
 },
 {
@@ -1241,7 +1305,7 @@
   "fields": {
     "parent": 40,
     "language": 2,
-    "audio": "blinking_E7B7pd5.wav"
+    "audio": "check7_cowsalivation_en.wav"
   }
 },
 {
@@ -1250,7 +1314,7 @@
   "fields": {
     "parent": 41,
     "language": 2,
-    "audio": "reddening_sr2mivo.wav"
+    "audio": "check8_cowconstipation_en.wav"
   }
 },
 {
@@ -1259,7 +1323,7 @@
   "fields": {
     "parent": 42,
     "language": 2,
-    "audio": "woodentongue_KVu5VyL.wav"
+    "audio": "cow1_Trypanosomosis_en.wav"
   }
 },
 {
@@ -1268,7 +1332,7 @@
   "fields": {
     "parent": 43,
     "language": 2,
-    "audio": "pinkeye_sI8iURI.wav"
+    "audio": "cow2_LumpySkinDisease_en.wav"
   }
 },
 {
@@ -1277,7 +1341,7 @@
   "fields": {
     "parent": 44,
     "language": 2,
-    "audio": "infectiousbronchitis_nsVAtw2.wav"
+    "audio": "chicken2_InfectiousBronchitis_en.wav"
   }
 },
 {
@@ -1286,7 +1350,7 @@
   "fields": {
     "parent": 45,
     "language": 2,
-    "audio": "fowlpox_4BYSkvW.wav"
+    "audio": "chicken3_fowlpox_en.wav"
   }
 },
 {
@@ -1295,7 +1359,7 @@
   "fields": {
     "parent": 46,
     "language": 2,
-    "audio": "chickeneat_drink_ah3Z1Gx.wav"
+    "audio": "check4_chickendischarge_en.wav"
   }
 },
 {
@@ -1304,7 +1368,7 @@
   "fields": {
     "parent": 47,
     "language": 2,
-    "audio": "chickendischarge.wav"
+    "audio": "check4_chickendischarge_en_TqffX62.wav"
   }
 },
 {
@@ -1313,7 +1377,7 @@
   "fields": {
     "parent": 48,
     "language": 2,
-    "audio": "cough_XX8PVnE.wav"
+    "audio": "check2_chickencough_en.wav"
   }
 },
 {
@@ -1322,7 +1386,7 @@
   "fields": {
     "parent": 49,
     "language": 2,
-    "audio": "softshelled_WjjYPv2.wav"
+    "audio": "check3_chickenappetite_en.wav"
   }
 },
 {
@@ -1331,7 +1395,7 @@
   "fields": {
     "parent": 50,
     "language": 2,
-    "audio": "whitespots_4cCRFnh.wav"
+    "audio": "check5_chickenappetite_en.wav"
   }
 },
 {
@@ -1340,7 +1404,7 @@
   "fields": {
     "parent": 51,
     "language": 2,
-    "audio": "scabbysores_yWxez0c.wav"
+    "audio": "check1_chickenegglaying_en.wav"
   }
 },
 {
@@ -1349,7 +1413,7 @@
   "fields": {
     "parent": 52,
     "language": 2,
-    "audio": "chickentongueblisters_NxQr0E1.wav"
+    "audio": "check7_chickencough_en.wav"
   }
 },
 {
@@ -1358,7 +1422,7 @@
   "fields": {
     "parent": 53,
     "language": 2,
-    "audio": "swollentongue_BMUsilC.wav"
+    "audio": "check1_cowfever_en.wav"
   }
 },
 {
@@ -1394,7 +1458,7 @@
   "fields": {
     "parent": 61,
     "language": 2,
-    "audio": "urgency_786Kd35.wav"
+    "audio": "NotUrgent_en.wav"
   }
 },
 {
@@ -1412,7 +1476,7 @@
   "fields": {
     "parent": 63,
     "language": 2,
-    "audio": "mostlikely_Tv0mJiE.wav"
+    "audio": "MostLikely_en.wav"
   }
 },
 {
@@ -1524,6 +1588,339 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 125,
+  "fields": {
+    "parent": 53,
+    "language": 3,
+    "audio": "check1_cowfever_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 126,
+  "fields": {
+    "parent": 35,
+    "language": 3,
+    "audio": "check2_cowpalegums_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 127,
+  "fields": {
+    "parent": 36,
+    "language": 3,
+    "audio": "check3_cowweightloss_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 128,
+  "fields": {
+    "parent": 42,
+    "language": 3,
+    "audio": "cow1_Trypanosomosis_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 129,
+  "fields": {
+    "parent": 37,
+    "language": 3,
+    "audio": "check4_cowulcers_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 130,
+  "fields": {
+    "parent": 38,
+    "language": 3,
+    "audio": "check5_cowswollennlegs_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 131,
+  "fields": {
+    "parent": 39,
+    "language": 3,
+    "audio": "check6_cowfever_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 132,
+  "fields": {
+    "parent": 40,
+    "language": 3,
+    "audio": "check7_cowsalivation_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 133,
+  "fields": {
+    "parent": 41,
+    "language": 3,
+    "audio": "check8_cowconstipation_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 134,
+  "fields": {
+    "parent": 43,
+    "language": 3,
+    "audio": "cow2_LumpySkinDisease_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 135,
+  "fields": {
+    "parent": 68,
+    "language": 2,
+    "audio": "check9_cowappetite_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 136,
+  "fields": {
+    "parent": 68,
+    "language": 3,
+    "audio": "check9_cowappetite_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 137,
+  "fields": {
+    "parent": 69,
+    "language": 2,
+    "audio": "check11_cowfever_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 138,
+  "fields": {
+    "parent": 69,
+    "language": 3,
+    "audio": "check11_cowfever_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 139,
+  "fields": {
+    "parent": 70,
+    "language": 2,
+    "audio": "cow3_gallsickness_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 140,
+  "fields": {
+    "parent": 70,
+    "language": 3,
+    "audio": "cow3_gallsickness_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 141,
+  "fields": {
+    "parent": 71,
+    "language": 2,
+    "audio": "check10_cowpalegums_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 142,
+  "fields": {
+    "parent": 71,
+    "language": 3,
+    "audio": "check10_cowpalegums_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 143,
+  "fields": {
+    "parent": 46,
+    "language": 3,
+    "audio": "check4_chickendischarge_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 144,
+  "fields": {
+    "parent": 47,
+    "language": 3,
+    "audio": "check4_chickendischarge_fr_NuCoGTm.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 145,
+  "fields": {
+    "parent": 48,
+    "language": 3,
+    "audio": "check2_chickencough_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 146,
+  "fields": {
+    "parent": 49,
+    "language": 3,
+    "audio": "check3_chickenappetite_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 147,
+  "fields": {
+    "parent": 44,
+    "language": 3,
+    "audio": "chicken2_InfectiousBronchitis_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 148,
+  "fields": {
+    "parent": 72,
+    "language": 2,
+    "audio": "chicken1_newcastle_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 149,
+  "fields": {
+    "parent": 72,
+    "language": 3,
+    "audio": "chicken1_newcastle_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 150,
+  "fields": {
+    "parent": 45,
+    "language": 3,
+    "audio": "chicken3_fowlpox_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 151,
+  "fields": {
+    "parent": 50,
+    "language": 3,
+    "audio": "check5_chickenappetite_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 152,
+  "fields": {
+    "parent": 51,
+    "language": 3,
+    "audio": "check1_chickenegglaying_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 153,
+  "fields": {
+    "parent": 52,
+    "language": 3,
+    "audio": "check7_chickencough_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 154,
+  "fields": {
+    "parent": 73,
+    "language": 2,
+    "audio": "check7_chickenwhitespots_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 155,
+  "fields": {
+    "parent": 73,
+    "language": 3,
+    "audio": "check7_chickenwhitespots_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 156,
+  "fields": {
+    "parent": 74,
+    "language": 2,
+    "audio": "check8_chickenscabbysores_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 157,
+  "fields": {
+    "parent": 74,
+    "language": 3,
+    "audio": "check8_chickenscabbysores_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 158,
+  "fields": {
+    "parent": 75,
+    "language": 2,
+    "audio": "check6_chickentongueblisters_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 159,
+  "fields": {
+    "parent": 75,
+    "language": 3,
+    "audio": "check6_chickentongueblisters_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 160,
+  "fields": {
+    "parent": 63,
+    "language": 3,
+    "audio": "Mostlikely_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 161,
+  "fields": {
+    "parent": 61,
+    "language": 3,
+    "audio": "NotUrgent_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 5,
   "fields": {
@@ -1561,23 +1958,11 @@
 },
 {
   "model": "service_development.voiceservicesubelement",
-  "pk": 17,
-  "fields": {
-    "service": 1,
-    "creation_date": "2018-05-01T17:07:40.032Z",
-    "modification_date": "2018-05-01T17:07:40.032Z",
-    "name": "Incorrect Post",
-    "description": "",
-    "voice_label": 29
-  }
-},
-{
-  "model": "service_development.voiceservicesubelement",
   "pk": 18,
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:38:42.632Z",
-    "modification_date": "2018-05-17T12:29:45.945Z",
+    "modification_date": "2018-05-19T16:19:51.675Z",
     "name": "What type of animal?",
     "description": "",
     "voice_label": 31
@@ -1613,9 +1998,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:55:14.669Z",
-    "modification_date": "2018-05-02T11:51:11.779Z",
+    "modification_date": "2018-05-19T16:20:31.018Z",
     "name": "Cow check 1",
-    "description": "",
+    "description": "Does the cow have an irregular fever?",
     "voice_label": 53
   }
 },
@@ -1625,8 +2010,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:55:14.674Z",
-    "modification_date": "2018-05-01T18:00:40.061Z",
-    "name": "Has swollen tongue",
+    "modification_date": "2018-05-19T16:14:50.988Z",
+    "name": "Has irregular fever",
     "description": "",
     "voice_label": 21
   }
@@ -1637,8 +2022,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:55:14.676Z",
-    "modification_date": "2018-05-02T11:46:59.400Z",
-    "name": "No swollen tongue",
+    "modification_date": "2018-05-19T16:14:50.989Z",
+    "name": "No irregular fever",
     "description": "",
     "voice_label": 22
   }
@@ -1649,9 +2034,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:58:00.943Z",
-    "modification_date": "2018-05-02T11:54:08.525Z",
+    "modification_date": "2018-05-19T16:19:10.221Z",
     "name": "Cow check 2",
-    "description": "Is it able to eat or drink?",
+    "description": "Does the cow have pale or yellow colored gums?",
     "voice_label": 35
   }
 },
@@ -1661,8 +2046,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:58:00.950Z",
-    "modification_date": "2018-05-01T18:03:35.450Z",
-    "name": "Can eat or drink",
+    "modification_date": "2018-05-19T16:19:10.224Z",
+    "name": "pale or yellow colored gums",
     "description": "",
     "voice_label": 21
   }
@@ -1673,8 +2058,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T17:58:00.951Z",
-    "modification_date": "2018-05-02T11:54:08.531Z",
-    "name": "Cannot eat or drink",
+    "modification_date": "2018-05-19T16:19:10.226Z",
+    "name": "no pale or yellow colored gums",
     "description": "",
     "voice_label": 22
   }
@@ -1685,9 +2070,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:02:38.997Z",
-    "modification_date": "2018-05-02T13:01:15.701Z",
+    "modification_date": "2018-05-19T16:26:13.322Z",
     "name": "Cow check 3",
-    "description": "Does it have tongue blisters?",
+    "description": "Is it experiencing weight loss?",
     "voice_label": 36
   }
 },
@@ -1697,8 +2082,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:02:39.001Z",
-    "modification_date": "2018-05-01T18:18:17.564Z",
-    "name": "Has tongue blisters",
+    "modification_date": "2018-05-19T16:25:59.655Z",
+    "name": "Has weight loss",
     "description": "",
     "voice_label": 21
   }
@@ -1709,8 +2094,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:02:39.002Z",
-    "modification_date": "2018-05-02T13:01:15.707Z",
-    "name": "No tongue blisters",
+    "modification_date": "2018-05-19T16:25:59.657Z",
+    "name": "Has no weight loss",
     "description": "",
     "voice_label": 22
   }
@@ -1721,9 +2106,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:16:32.642Z",
-    "modification_date": "2018-05-02T12:29:26.270Z",
+    "modification_date": "2018-05-19T16:39:11.809Z",
     "name": "Cow check 4",
-    "description": "Is it drooling a lot?",
+    "description": "Does the cow have ulcers on its skin?",
     "voice_label": 37
   }
 },
@@ -1733,8 +2118,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:16:32.647Z",
-    "modification_date": "2018-05-02T11:52:16.267Z",
-    "name": "Drooling",
+    "modification_date": "2018-05-19T16:39:11.813Z",
+    "name": "Ulcers on skin",
     "description": "",
     "voice_label": 21
   }
@@ -1745,8 +2130,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:16:32.649Z",
-    "modification_date": "2018-05-02T12:29:26.274Z",
-    "name": "Not drooling",
+    "modification_date": "2018-05-19T16:39:11.814Z",
+    "name": "No ulcers on skin",
     "description": "",
     "voice_label": 22
   }
@@ -1757,9 +2142,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:20:39.901Z",
-    "modification_date": "2018-05-02T12:31:04.128Z",
+    "modification_date": "2018-05-19T16:43:11.939Z",
     "name": "Cow check 5",
-    "description": "Does it have plenty watery eye discharge?",
+    "description": "Does it have swollen legs?",
     "voice_label": 38
   }
 },
@@ -1769,8 +2154,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:20:39.906Z",
-    "modification_date": "2018-05-01T18:23:37.995Z",
-    "name": "Has watery eye discharge",
+    "modification_date": "2018-05-19T16:43:11.943Z",
+    "name": "Has swollen legs",
     "description": "",
     "voice_label": 21
   }
@@ -1781,8 +2166,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:20:39.908Z",
-    "modification_date": "2018-05-02T11:58:59.753Z",
-    "name": "No watery eye discharge",
+    "modification_date": "2018-05-19T16:43:11.944Z",
+    "name": "Has no swollen legs",
     "description": "",
     "voice_label": 22
   }
@@ -1793,9 +2178,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:22:53.687Z",
-    "modification_date": "2018-05-02T12:31:56.736Z",
+    "modification_date": "2018-05-19T17:01:59.503Z",
     "name": "Cow check 6",
-    "description": "Does it have an aversion to sunlight?",
+    "description": "Does it have a fever?",
     "voice_label": 39
   }
 },
@@ -1805,8 +2190,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:22:53.693Z",
-    "modification_date": "2018-05-01T18:36:47.528Z",
-    "name": "Sunlight aversion",
+    "modification_date": "2018-05-19T17:01:59.508Z",
+    "name": "Fever?",
     "description": "",
     "voice_label": 21
   }
@@ -1817,8 +2202,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:22:53.695Z",
-    "modification_date": "2018-05-02T12:31:56.741Z",
-    "name": "No sunlight aversion",
+    "modification_date": "2018-05-19T17:01:59.510Z",
+    "name": "No fever?",
     "description": "",
     "voice_label": 22
   }
@@ -1829,9 +2214,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:25:25.658Z",
-    "modification_date": "2018-05-02T12:02:09.521Z",
+    "modification_date": "2018-05-19T17:15:00.416Z",
     "name": "Cow check 7",
-    "description": "Does it have signs of irritation, for example, excessive blinking?",
+    "description": "Does it have excessive salivation?",
     "voice_label": 40
   }
 },
@@ -1841,8 +2226,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:25:25.663Z",
-    "modification_date": "2018-05-01T18:38:37.045Z",
-    "name": "Irritation",
+    "modification_date": "2018-05-19T17:15:00.420Z",
+    "name": "Excessive salivation",
     "description": "",
     "voice_label": 21
   }
@@ -1853,8 +2238,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:25:25.664Z",
-    "modification_date": "2018-05-02T12:02:09.527Z",
-    "name": "No irritation",
+    "modification_date": "2018-05-19T17:15:00.422Z",
+    "name": "No Excessive salivation",
     "description": "",
     "voice_label": 22
   }
@@ -1865,9 +2250,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:38:24.609Z",
-    "modification_date": "2018-05-02T12:29:11.129Z",
+    "modification_date": "2018-05-19T17:21:39.829Z",
     "name": "Cow check 8",
-    "description": "Does it have reddening and swelling of the eyelids and the third eyelid?",
+    "description": "Does it have constipation?",
     "voice_label": 41
   }
 },
@@ -1877,8 +2262,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:38:24.615Z",
-    "modification_date": "2018-05-02T12:05:16.688Z",
-    "name": "Reddening",
+    "modification_date": "2018-05-19T17:19:17.961Z",
+    "name": "Constipation",
     "description": "",
     "voice_label": 21
   }
@@ -1889,8 +2274,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:38:24.616Z",
-    "modification_date": "2018-05-02T12:29:11.134Z",
-    "name": "No reddening",
+    "modification_date": "2018-05-19T17:19:17.963Z",
+    "name": "No constipation",
     "description": "",
     "voice_label": 22
   }
@@ -1901,9 +2286,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:43:52.096Z",
-    "modification_date": "2018-05-02T08:33:20.036Z",
-    "name": "Disease: Wooden Tongue",
-    "description": "The cow has wooden tongue",
+    "modification_date": "2018-05-19T18:29:56.821Z",
+    "name": "Disease: Trypanosomosis",
+    "description": "The cow has Trypanosomosis",
     "voice_label": 42
   }
 },
@@ -1913,9 +2298,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:44:57.030Z",
-    "modification_date": "2018-05-02T08:33:49.902Z",
-    "name": "Disease: Pink eye",
-    "description": "The cow has pink eye",
+    "modification_date": "2018-05-19T18:29:42.743Z",
+    "name": "Disease: Lumpy skin",
+    "description": "The cow has Lumpy skin disease",
     "voice_label": 43
   }
 },
@@ -1925,7 +2310,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:48:00.537Z",
-    "modification_date": "2018-05-02T08:31:24.142Z",
+    "modification_date": "2018-05-19T18:23:54.151Z",
     "name": "Disease: Infectious Bronchitis",
     "description": "The chicken has infectious bronchitis",
     "voice_label": 44
@@ -1937,7 +2322,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:48:51.273Z",
-    "modification_date": "2018-05-02T08:33:33.552Z",
+    "modification_date": "2018-05-19T18:26:12.509Z",
     "name": "Disease: Fowl Pox",
     "description": "The chicken has fowl pox",
     "voice_label": 45
@@ -1949,9 +2334,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:35:25.197Z",
-    "modification_date": "2018-05-02T12:02:57.435Z",
+    "modification_date": "2018-05-19T18:19:18.014Z",
     "name": "Chicken check 1",
-    "description": "Is there a decrease in eating and drinking?",
+    "description": "Does it have discharge from the nostrils and eyes?",
     "voice_label": 46
   }
 },
@@ -1961,8 +2346,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:35:25.201Z",
-    "modification_date": "2018-05-01T19:40:12.778Z",
-    "name": "Decrease in eating & drinking",
+    "modification_date": "2018-05-19T18:17:05.998Z",
+    "name": "Discharge from nose and eyes",
     "description": "",
     "voice_label": 21
   }
@@ -1973,8 +2358,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:35:25.204Z",
-    "modification_date": "2018-05-02T12:02:57.440Z",
-    "name": "No decrease in eating & drinking",
+    "modification_date": "2018-05-19T18:17:06.000Z",
+    "name": "No discharge from nose and eyes",
     "description": "",
     "voice_label": 22
   }
@@ -1985,9 +2370,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:36:45.118Z",
-    "modification_date": "2018-05-02T12:03:12.390Z",
+    "modification_date": "2018-05-19T18:19:22.587Z",
     "name": "Chicken check 2",
-    "description": "Does it have discharge from the nostrils and eyes?",
+    "description": "Is there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?",
     "voice_label": 47
   }
 },
@@ -1997,8 +2382,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:36:45.123Z",
-    "modification_date": "2018-05-01T19:39:58.733Z",
-    "name": "Discharge",
+    "modification_date": "2018-05-19T18:18:40.541Z",
+    "name": "Decrease in egg laying / soft shelled",
     "description": "",
     "voice_label": 21
   }
@@ -2009,8 +2394,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:36:45.125Z",
-    "modification_date": "2018-05-02T12:03:12.396Z",
-    "name": "No Discharge",
+    "modification_date": "2018-05-19T18:18:40.542Z",
+    "name": "No decrease in egg laying / soft shelled",
     "description": "",
     "voice_label": 22
   }
@@ -2021,7 +2406,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:38:00.742Z",
-    "modification_date": "2018-05-02T12:03:37.903Z",
+    "modification_date": "2018-05-19T18:20:51.135Z",
     "name": "Chicken check 3",
     "description": "Does it gasp, cough and make raspy breath sounds?",
     "voice_label": 48
@@ -2057,9 +2442,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:39:21.975Z",
-    "modification_date": "2018-05-02T12:30:07.359Z",
+    "modification_date": "2018-05-19T18:31:13.373Z",
     "name": "Chicken check 4",
-    "description": "s there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?",
+    "description": "Is there a decrease in eating and drinking?",
     "voice_label": 49
   }
 },
@@ -2069,8 +2454,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:39:21.984Z",
-    "modification_date": "2018-05-02T12:04:02.586Z",
-    "name": "Soft-shelled",
+    "modification_date": "2018-05-19T18:23:16.905Z",
+    "name": "Decrease in eating & drinking",
     "description": "",
     "voice_label": 21
   }
@@ -2081,8 +2466,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:39:21.987Z",
-    "modification_date": "2018-05-02T12:30:07.364Z",
-    "name": "Not soft-shelled",
+    "modification_date": "2018-05-19T18:23:16.906Z",
+    "name": "No decrease in eating & drinking",
     "description": "",
     "voice_label": 22
   }
@@ -2093,9 +2478,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:41:15.455Z",
-    "modification_date": "2018-05-02T12:04:14.254Z",
+    "modification_date": "2018-05-19T18:44:44.257Z",
     "name": "Chicken check 5",
-    "description": "Does it have white spots on its skin?",
+    "description": "Is there a lost in appetite?",
     "voice_label": 50
   }
 },
@@ -2105,8 +2490,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:41:15.460Z",
-    "modification_date": "2018-05-01T19:43:52.838Z",
-    "name": "White spots",
+    "modification_date": "2018-05-19T18:34:07.823Z",
+    "name": "Loss of appetite",
     "description": "",
     "voice_label": 21
   }
@@ -2117,8 +2502,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:41:15.462Z",
-    "modification_date": "2018-05-02T12:04:14.259Z",
-    "name": "No white spots",
+    "modification_date": "2018-05-19T18:34:07.824Z",
+    "name": "No loss of appetite",
     "description": "",
     "voice_label": 22
   }
@@ -2129,9 +2514,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:42:11.841Z",
-    "modification_date": "2018-05-02T12:35:07.208Z",
+    "modification_date": "2018-05-19T19:01:43.227Z",
     "name": "Chicken check 6",
-    "description": "Does it have scabby sores on its combs?",
+    "description": "Is there a decrease in egg production?",
     "voice_label": 51
   }
 },
@@ -2141,8 +2526,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:42:11.846Z",
-    "modification_date": "2018-05-01T19:44:03.381Z",
-    "name": "Scabby sores",
+    "modification_date": "2018-05-19T18:47:38.136Z",
+    "name": "Decrease in egg production",
     "description": "",
     "voice_label": 21
   }
@@ -2153,8 +2538,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:42:11.848Z",
-    "modification_date": "2018-05-02T12:13:55.997Z",
-    "name": "No scabby sores",
+    "modification_date": "2018-05-19T18:47:38.137Z",
+    "name": "No decrease in egg production",
     "description": "",
     "voice_label": 22
   }
@@ -2165,9 +2550,9 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:43:19.845Z",
-    "modification_date": "2018-05-02T12:30:16.523Z",
+    "modification_date": "2018-05-19T18:51:18.537Z",
     "name": "Chicken check 7",
-    "description": "Does it have tongue blisters?",
+    "description": "Is it gasping, coughing and sneezing?",
     "voice_label": 52
   }
 },
@@ -2177,8 +2562,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:43:19.850Z",
-    "modification_date": "2018-05-02T12:04:44.838Z",
-    "name": "Tongue Blisters",
+    "modification_date": "2018-05-19T18:50:12.918Z",
+    "name": "Gasping?",
     "description": "",
     "voice_label": 21
   }
@@ -2189,8 +2574,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:43:19.853Z",
-    "modification_date": "2018-05-02T12:30:16.530Z",
-    "name": "No tongue Blisters",
+    "modification_date": "2018-05-19T18:50:12.919Z",
+    "name": "No gasping?",
     "description": "",
     "voice_label": 22
   }
@@ -2213,7 +2598,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-02T11:45:59.466Z",
-    "modification_date": "2018-05-02T12:59:21.394Z",
+    "modification_date": "2018-05-19T19:13:14.024Z",
     "name": "No disease",
     "description": "",
     "voice_label": 61
@@ -2225,7 +2610,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-02T12:28:47.625Z",
-    "modification_date": "2018-05-02T12:57:21.084Z",
+    "modification_date": "2018-05-19T19:12:48.449Z",
     "name": "Most Likely",
     "description": "",
     "voice_label": 63
@@ -2273,7 +2658,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-17T12:28:53.944Z",
-    "modification_date": "2018-05-17T12:28:53.944Z",
+    "modification_date": "2018-05-19T18:26:42.068Z",
     "name": "Start checklist goat",
     "description": "",
     "voice_label": 67
@@ -2292,6 +2677,246 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 85,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:26:38.773Z",
+    "modification_date": "2018-05-19T17:41:23.837Z",
+    "name": "Cow check 9",
+    "description": "Does the cow have a lost of appetite?",
+    "voice_label": 68
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 86,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:26:38.777Z",
+    "modification_date": "2018-05-19T17:34:55.454Z",
+    "name": "Loss of appetite",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 87,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:26:38.779Z",
+    "modification_date": "2018-05-19T17:34:55.456Z",
+    "name": "No loss of appetite",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 88,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:34:32.374Z",
+    "modification_date": "2018-05-19T17:42:50.787Z",
+    "name": "Cow check 10",
+    "description": "Does the cow have pale or yellow colored gums?",
+    "voice_label": 71
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 89,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:34:32.379Z",
+    "modification_date": "2018-05-19T17:42:50.791Z",
+    "name": "Yellow colored gums",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 90,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:34:32.381Z",
+    "modification_date": "2018-05-19T17:34:32.381Z",
+    "name": "No yellow colored gums",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 91,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:38:21.510Z",
+    "modification_date": "2018-05-19T17:43:08.835Z",
+    "name": "Cow check 11",
+    "description": "Does it have a fever?",
+    "voice_label": 69
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 92,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:38:21.514Z",
+    "modification_date": "2018-05-19T17:43:08.839Z",
+    "name": "Fever?",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 93,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:38:21.516Z",
+    "modification_date": "2018-05-19T17:38:21.516Z",
+    "name": "No fever",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 94,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T17:40:45.659Z",
+    "modification_date": "2018-05-19T18:30:28.178Z",
+    "name": "Disease: Gall-Sickness",
+    "description": "The cow has gall-sickness",
+    "voice_label": 70
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 95,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:25:42.715Z",
+    "modification_date": "2018-05-19T18:30:14.937Z",
+    "name": "Disease: Newcastle Disease",
+    "description": "The chicken has newcastle disease",
+    "voice_label": 72
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 96,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:53:22.488Z",
+    "modification_date": "2018-05-19T19:01:08.699Z",
+    "name": "Chicken check 8",
+    "description": "Does it have white spots on its skin?",
+    "voice_label": 73
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 97,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:53:22.493Z",
+    "modification_date": "2018-05-19T19:00:41.983Z",
+    "name": "White spots",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 98,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:53:22.494Z",
+    "modification_date": "2018-05-19T19:00:41.985Z",
+    "name": "No white spots",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 99,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:56:29.751Z",
+    "modification_date": "2018-05-19T19:02:00.533Z",
+    "name": "Chicken check 9",
+    "description": "Does it have scabby sores on its combs?",
+    "voice_label": 74
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 100,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:56:29.755Z",
+    "modification_date": "2018-05-19T19:01:28.446Z",
+    "name": "Scabby sores",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 101,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T18:56:29.756Z",
+    "modification_date": "2018-05-19T19:02:00.537Z",
+    "name": "No scabby sores",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 102,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T19:00:13.348Z",
+    "modification_date": "2018-05-19T19:02:56.810Z",
+    "name": "Chicken check 10",
+    "description": "Does it have tongue blisters?",
+    "voice_label": 75
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 103,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T19:00:13.352Z",
+    "modification_date": "2018-05-19T19:00:13.352Z",
+    "name": "Tongue Blisters",
+    "description": "",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 104,
+  "fields": {
+    "service": 1,
+    "creation_date": "2018-05-19T19:00:13.354Z",
+    "modification_date": "2018-05-19T19:00:13.354Z",
+    "name": "No tongue blisters",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 5,
   "fields": {}
@@ -2304,11 +2929,6 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 7,
-  "fields": {}
-},
-{
-  "model": "service_development.voiceserviceelement",
-  "pk": 17,
   "fields": {}
 },
 {
@@ -2447,16 +3067,56 @@
   "fields": {}
 },
 {
+  "model": "service_development.voiceserviceelement",
+  "pk": 85,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 88,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 91,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 94,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 95,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 96,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 99,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 102,
+  "fields": {}
+},
+{
   "model": "service_development.voiceservice",
   "pk": 1,
   "fields": {
     "name": "Animal Diagnosis",
     "description": "An animal diagnosis that checks whether your cattle has a disease",
     "creation_date": "2017-04-23T19:23:52.392Z",
-    "modification_date": "2018-05-17T12:30:24.707Z",
+    "modification_date": "2018-05-19T19:03:45.287Z",
     "active": true,
     "_start_element": 76,
-    "registration": "preferred",
+    "registration": "disabled",
     "registration_language": true,
     "registration_name": false,
     "supported_languages": [
@@ -2564,6 +3224,36 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 85,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 88,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 91,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 96,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 99,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 102,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 19,
   "fields": {
@@ -2592,7 +3282,7 @@
   "pk": 29,
   "fields": {
     "parent": 27,
-    "_redirect": 39
+    "_redirect": 36
   }
 },
 {
@@ -2608,7 +3298,7 @@
   "pk": 32,
   "fields": {
     "parent": 30,
-    "_redirect": 39
+    "_redirect": 36
   }
 },
 {
@@ -2616,7 +3306,7 @@
   "pk": 34,
   "fields": {
     "parent": 33,
-    "_redirect": 36
+    "_redirect": 51
   }
 },
 {
@@ -2624,7 +3314,7 @@
   "pk": 35,
   "fields": {
     "parent": 33,
-    "_redirect": 39
+    "_redirect": 79
   }
 },
 {
@@ -2632,7 +3322,7 @@
   "pk": 37,
   "fields": {
     "parent": 36,
-    "_redirect": 51
+    "_redirect": 39
   }
 },
 {
@@ -2640,7 +3330,7 @@
   "pk": 38,
   "fields": {
     "parent": 36,
-    "_redirect": 79
+    "_redirect": 48
   }
 },
 {
@@ -2656,7 +3346,7 @@
   "pk": 41,
   "fields": {
     "parent": 39,
-    "_redirect": 78
+    "_redirect": 42
   }
 },
 {
@@ -2672,7 +3362,7 @@
   "pk": 44,
   "fields": {
     "parent": 42,
-    "_redirect": 45
+    "_redirect": 48
   }
 },
 {
@@ -2680,7 +3370,7 @@
   "pk": 46,
   "fields": {
     "parent": 45,
-    "_redirect": 48
+    "_redirect": 52
   }
 },
 {
@@ -2688,7 +3378,7 @@
   "pk": 47,
   "fields": {
     "parent": 45,
-    "_redirect": 78
+    "_redirect": 79
   }
 },
 {
@@ -2696,7 +3386,7 @@
   "pk": 49,
   "fields": {
     "parent": 48,
-    "_redirect": 52
+    "_redirect": 78
   }
 },
 {
@@ -2808,7 +3498,7 @@
   "pk": 74,
   "fields": {
     "parent": 73,
-    "_redirect": 54
+    "_redirect": 95
   }
 },
 {
@@ -2825,6 +3515,102 @@
   "fields": {
     "parent": 18,
     "_redirect": 84
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 86,
+  "fields": {
+    "parent": 85,
+    "_redirect": 88
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 87,
+  "fields": {
+    "parent": 85,
+    "_redirect": 88
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 89,
+  "fields": {
+    "parent": 88,
+    "_redirect": 91
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 90,
+  "fields": {
+    "parent": 88,
+    "_redirect": 78
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 92,
+  "fields": {
+    "parent": 91,
+    "_redirect": 94
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 93,
+  "fields": {
+    "parent": 91,
+    "_redirect": 79
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 97,
+  "fields": {
+    "parent": 96,
+    "_redirect": 99
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 98,
+  "fields": {
+    "parent": 96,
+    "_redirect": 78
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 100,
+  "fields": {
+    "parent": 99,
+    "_redirect": 102
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 101,
+  "fields": {
+    "parent": 99,
+    "_redirect": 102
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 103,
+  "fields": {
+    "parent": 102,
+    "_redirect": 54
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 104,
+  "fields": {
+    "parent": 102,
+    "_redirect": 79
   }
 },
 {
@@ -2849,14 +3635,6 @@
   "fields": {
     "final_element": false,
     "_redirect": 6
-  }
-},
-{
-  "model": "service_development.messagepresentation",
-  "pk": 17,
-  "fields": {
-    "final_element": true,
-    "_redirect": null
   }
 },
 {
@@ -2936,7 +3714,23 @@
   "pk": 83,
   "fields": {
     "final_element": false,
-    "_redirect": null
+    "_redirect": 84
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 94,
+  "fields": {
+    "final_element": false,
+    "_redirect": 6
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 95,
+  "fields": {
+    "final_element": false,
+    "_redirect": 6
   }
 }
 ]
