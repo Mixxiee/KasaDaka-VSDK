@@ -1554,7 +1554,7 @@
   "fields": {
     "parent": 61,
     "language": 2,
-    "audio": "NotUrgent_en.wav"
+    "audio": "NoDisease_en.wav"
   }
 },
 {
@@ -2013,7 +2013,7 @@
   "fields": {
     "parent": 61,
     "language": 3,
-    "audio": "NotUrgent_fr.wav"
+    "audio": "NoDisease_fr.wav"
   }
 },
 {
@@ -2454,7 +2454,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:20:39.901Z",
-    "modification_date": "2018-05-19T16:43:11.939Z",
+    "modification_date": "2018-05-21T11:27:27.932Z",
     "name": "Cow check 5",
     "description": "Does it have swollen legs?",
     "voice_label": 38
@@ -2478,7 +2478,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:20:39.908Z",
-    "modification_date": "2018-05-19T16:43:11.944Z",
+    "modification_date": "2018-05-21T11:27:27.936Z",
     "name": "Has no swollen legs",
     "description": "",
     "voice_label": 22
@@ -2490,7 +2490,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:22:53.687Z",
-    "modification_date": "2018-05-19T17:01:59.503Z",
+    "modification_date": "2018-05-21T11:28:04.058Z",
     "name": "Cow check 6",
     "description": "Does it have a fever?",
     "voice_label": 39
@@ -2514,7 +2514,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:22:53.695Z",
-    "modification_date": "2018-05-19T17:01:59.510Z",
+    "modification_date": "2018-05-21T11:28:04.063Z",
     "name": "No fever?",
     "description": "",
     "voice_label": 22
@@ -2562,7 +2562,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:38:24.609Z",
-    "modification_date": "2018-05-19T17:21:39.829Z",
+    "modification_date": "2018-05-21T11:30:41.150Z",
     "name": "Cow check 8",
     "description": "Does it have constipation?",
     "voice_label": 41
@@ -2574,7 +2574,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:38:24.615Z",
-    "modification_date": "2018-05-19T17:19:17.961Z",
+    "modification_date": "2018-05-21T11:30:41.154Z",
     "name": "Constipation",
     "description": "",
     "voice_label": 21
@@ -2586,7 +2586,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T18:38:24.616Z",
-    "modification_date": "2018-05-19T17:19:17.963Z",
+    "modification_date": "2018-05-21T11:30:41.156Z",
     "name": "No constipation",
     "description": "",
     "voice_label": 22
@@ -2646,7 +2646,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:35:25.197Z",
-    "modification_date": "2018-05-19T18:19:18.014Z",
+    "modification_date": "2018-05-21T11:33:03.335Z",
     "name": "Chicken check 1",
     "description": "Does it have discharge from the nostrils and eyes?",
     "voice_label": 46
@@ -2682,7 +2682,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:36:45.118Z",
-    "modification_date": "2018-05-19T18:19:22.587Z",
+    "modification_date": "2018-05-21T11:33:25.623Z",
     "name": "Chicken check 2",
     "description": "Is there a decrease in egg laying? Or are the eggs soft-shelled and watery inside?",
     "voice_label": 47
@@ -2718,7 +2718,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:38:00.742Z",
-    "modification_date": "2018-05-19T18:20:51.135Z",
+    "modification_date": "2018-05-21T11:33:45.116Z",
     "name": "Chicken check 3",
     "description": "Does it gasp, cough and make raspy breath sounds?",
     "voice_label": 48
@@ -2742,7 +2742,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:38:00.750Z",
-    "modification_date": "2018-05-02T12:03:37.908Z",
+    "modification_date": "2018-05-21T11:33:45.121Z",
     "name": "No coughing",
     "description": "",
     "voice_label": 22
@@ -2790,7 +2790,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:41:15.455Z",
-    "modification_date": "2018-05-19T18:44:44.257Z",
+    "modification_date": "2018-05-21T11:36:12.605Z",
     "name": "Chicken check 5",
     "description": "Is there a lost in appetite?",
     "voice_label": 50
@@ -2814,7 +2814,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:41:15.462Z",
-    "modification_date": "2018-05-19T18:34:07.824Z",
+    "modification_date": "2018-05-21T11:36:12.609Z",
     "name": "No loss of appetite",
     "description": "",
     "voice_label": 22
@@ -2826,7 +2826,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:42:11.841Z",
-    "modification_date": "2018-05-19T19:01:43.227Z",
+    "modification_date": "2018-05-21T11:37:49.073Z",
     "name": "Chicken check 6",
     "description": "Is there a decrease in egg production?",
     "voice_label": 51
@@ -2850,7 +2850,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:42:11.848Z",
-    "modification_date": "2018-05-19T18:47:38.137Z",
+    "modification_date": "2018-05-21T11:37:49.076Z",
     "name": "No decrease in egg production",
     "description": "",
     "voice_label": 22
@@ -2862,7 +2862,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-01T19:43:19.845Z",
-    "modification_date": "2018-05-19T18:51:18.537Z",
+    "modification_date": "2018-05-21T11:39:15.313Z",
     "name": "Chicken check 7",
     "description": "Is it gasping, coughing and sneezing?",
     "voice_label": 52
@@ -2910,8 +2910,8 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-02T11:45:59.466Z",
-    "modification_date": "2018-05-19T19:13:14.024Z",
-    "name": "No disease",
+    "modification_date": "2018-05-21T11:12:26.556Z",
+    "name": "No known disease",
     "description": "",
     "voice_label": 61
   }
@@ -2982,7 +2982,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-17T12:29:24.661Z",
-    "modification_date": "2018-05-20T16:11:47.110Z",
+    "modification_date": "2018-05-21T11:46:18.841Z",
     "name": "Goat check 1",
     "description": "Does the goat have sores in the mouth?",
     "voice_label": 76
@@ -2994,7 +2994,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T17:26:38.773Z",
-    "modification_date": "2018-05-19T17:41:23.837Z",
+    "modification_date": "2018-05-21T11:31:59.959Z",
     "name": "Cow check 9",
     "description": "Does the cow have a lost of appetite?",
     "voice_label": 68
@@ -3030,7 +3030,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T17:34:32.374Z",
-    "modification_date": "2018-05-19T17:42:50.787Z",
+    "modification_date": "2018-05-21T11:32:07.983Z",
     "name": "Cow check 10",
     "description": "Does the cow have pale or yellow colored gums?",
     "voice_label": 71
@@ -3054,7 +3054,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T17:34:32.381Z",
-    "modification_date": "2018-05-19T17:34:32.381Z",
+    "modification_date": "2018-05-21T11:30:59.867Z",
     "name": "No yellow colored gums",
     "description": "",
     "voice_label": 22
@@ -3066,7 +3066,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T17:38:21.510Z",
-    "modification_date": "2018-05-19T17:43:08.835Z",
+    "modification_date": "2018-05-21T11:31:45.200Z",
     "name": "Cow check 11",
     "description": "Does it have a fever?",
     "voice_label": 69
@@ -3126,7 +3126,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T18:53:22.488Z",
-    "modification_date": "2018-05-19T19:01:08.699Z",
+    "modification_date": "2018-05-21T11:40:19.001Z",
     "name": "Chicken check 8",
     "description": "Does it have white spots on its skin?",
     "voice_label": 73
@@ -3162,7 +3162,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T18:56:29.751Z",
-    "modification_date": "2018-05-19T19:02:00.533Z",
+    "modification_date": "2018-05-21T11:40:36.685Z",
     "name": "Chicken check 9",
     "description": "Does it have scabby sores on its combs?",
     "voice_label": 74
@@ -3198,7 +3198,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-19T19:00:13.348Z",
-    "modification_date": "2018-05-19T19:02:56.810Z",
+    "modification_date": "2018-05-21T11:43:55.758Z",
     "name": "Chicken check 10",
     "description": "Does it have tongue blisters?",
     "voice_label": 75
@@ -3258,7 +3258,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T15:42:37.379Z",
-    "modification_date": "2018-05-20T16:12:17.110Z",
+    "modification_date": "2018-05-21T11:46:38.946Z",
     "name": "Goat check 2",
     "description": "Does the goat have diarrhea?",
     "voice_label": 77
@@ -3294,7 +3294,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T15:48:59.919Z",
-    "modification_date": "2018-05-20T16:12:44.531Z",
+    "modification_date": "2018-05-21T11:46:53.382Z",
     "name": "Goat check 3",
     "description": "Does the goat have fever?",
     "voice_label": 78
@@ -3330,7 +3330,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T15:54:00.071Z",
-    "modification_date": "2018-05-20T16:14:39.389Z",
+    "modification_date": "2018-05-21T11:48:38.988Z",
     "name": "Goat check 4",
     "description": "Do you see a rash on the goat? Is it really visible?",
     "voice_label": 79
@@ -3366,7 +3366,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T15:55:23.158Z",
-    "modification_date": "2018-05-20T16:15:15.843Z",
+    "modification_date": "2018-05-21T11:48:59.687Z",
     "name": "Goat check 5",
     "description": "Is the color of the rash red?",
     "voice_label": 80
@@ -3390,7 +3390,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T15:55:23.163Z",
-    "modification_date": "2018-05-20T16:15:15.848Z",
+    "modification_date": "2018-05-21T11:48:59.692Z",
     "name": "No red rash",
     "description": "",
     "voice_label": 22
@@ -3402,7 +3402,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T15:57:24.686Z",
-    "modification_date": "2018-05-20T16:16:44.039Z",
+    "modification_date": "2018-05-21T11:49:11.124Z",
     "name": "Goat check 6",
     "description": "Is the skin dry?",
     "voice_label": 81
@@ -3438,7 +3438,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T16:04:24.689Z",
-    "modification_date": "2018-05-20T16:18:55.594Z",
+    "modification_date": "2018-05-21T11:49:32.398Z",
     "name": "Goat check 7",
     "description": "Does the goat have decreased quality of skins, wool or mohair?",
     "voice_label": 82
@@ -3474,7 +3474,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T16:05:55.091Z",
-    "modification_date": "2018-05-20T16:25:14.292Z",
+    "modification_date": "2018-05-21T11:50:04.657Z",
     "name": "Goat check 8",
     "description": "Does the goat have infections?",
     "voice_label": 83
@@ -3510,7 +3510,7 @@
   "fields": {
     "service": 1,
     "creation_date": "2018-05-20T16:07:17.129Z",
-    "modification_date": "2018-05-20T16:25:23.335Z",
+    "modification_date": "2018-05-21T11:50:18.222Z",
     "name": "Goat check 9",
     "description": "Does have the goat have direct losses?",
     "voice_label": 84
@@ -4101,7 +4101,7 @@
   "pk": 41,
   "fields": {
     "parent": 39,
-    "_redirect": 42
+    "_redirect": 48
   }
 },
 {
@@ -4117,7 +4117,7 @@
   "pk": 44,
   "fields": {
     "parent": 42,
-    "_redirect": 48
+    "_redirect": 45
   }
 },
 {
@@ -4141,7 +4141,7 @@
   "pk": 49,
   "fields": {
     "parent": 48,
-    "_redirect": 78
+    "_redirect": 85
   }
 },
 {
@@ -4149,7 +4149,7 @@
   "pk": 50,
   "fields": {
     "parent": 48,
-    "_redirect": 79
+    "_redirect": 78
   }
 },
 {
@@ -4197,7 +4197,7 @@
   "pk": 63,
   "fields": {
     "parent": 61,
-    "_redirect": 67
+    "_redirect": 64
   }
 },
 {
@@ -4229,7 +4229,7 @@
   "pk": 69,
   "fields": {
     "parent": 67,
-    "_redirect": 78
+    "_redirect": 96
   }
 },
 {
@@ -4245,7 +4245,7 @@
   "pk": 72,
   "fields": {
     "parent": 70,
-    "_redirect": 73
+    "_redirect": 96
   }
 },
 {
@@ -4301,7 +4301,7 @@
   "pk": 90,
   "fields": {
     "parent": 88,
-    "_redirect": 78
+    "_redirect": 91
   }
 },
 {
@@ -4445,7 +4445,7 @@
   "pk": 118,
   "fields": {
     "parent": 116,
-    "_redirect": 119
+    "_redirect": 122
   }
 },
 {
